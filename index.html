@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body id="app">
+    <div class="container">
+        <div class="pageTitle">Embed Editor</div>
+        <div class="controls">
+            <div class="discord controlBtn">
+                <div class="controlBtnIconWrap">
+                    <div class="controlBtnIcon bx bx-plus"></div>
+                </div>
+                <div>New Embed</div>
+            </div>
+            <div class="red controlBtn">
+                <div class="controlBtnIconWrap">
+                    <div class="controlBtnIcon bx bx-x"></div>
+                </div>
+                <div>Clear All</div>
+            </div>
+            <div class="blue controlBtn">
+                <div class="controlBtnIconWrap">
+                    <div class="controlBtnIcon bx bxs-share"></div>
+                </div>
+                <div>Share</div>
+            </div>
+            <div class="green controlBtn">
+                <div class="controlBtnIconWrap">
+                    <div class="controlBtnIcon bx bxs-send"></div>
+                </div>
+                <div>Send Webhook</div>
+            </div>
+        </div>
+        <div class="embedCustomizer">
+            <div class="embedCustomTitle">Embed Settings</div>
+            <div class="mainSettings">
+                <div class="mainSettingsTitle">Main Settings</div>
+                <div class="settingsInputs">
+                    <div class="settingsInputBox">
+                        <label class="settingsInputLabel" for="">Hex Color</label>
+                        <input class="settingsInput" type="text" placeholder="#fff" name="" id="">
+                    </div>
+                    <div class="settingsInputBox">
+                        <label class="settingsInputLabel" for="">Title</label>
+                        <input class="settingsInput" type="text" placeholder="Title here" name="" id="">
+                    </div>
+                    <div class="settingsInputBox">
+                        <label class="settingsInputLabel" for="">URL</label>
+                        <input class="settingsInput" type="text" placeholder="URL" name="" id="">
+                    </div>
+                    <div class="settingsInputBox">
+                        <label class="settingsInputLabel" for="">Footer Text</label>
+                        <input class="settingsInput" type="text" placeholder="Footer Text" name="" id="">
+                    </div>
+                    <div class="settingsInputBox">
+                        <label class="settingsInputLabel" for="">Thumbnail</label>
+                        <input class="settingsInput" type="text" placeholder="Thumbnail URL" name="" id="">
+                    </div>
+                </div>
+            </div>
+            <div class="fieldSettings">
+                <div class="fieldSettingsHeader">
+                    <div class="embedCustomTitle">Field Settings</div>
+                    <div class="fieldSettingsHeaderBtns">
+                        <div class="fieldSettingsHeaderBtn discord">
+                            <div class="fieldSettingsHeaderBtnIconWrap">
+                                <div class="fieldSettingsHeaderBtnIcon bx bx-plus"></div>
+                            </div>
+                            <div>Add Field</div>
+                        </div>
+                        <div class="fieldSettingsHeaderBtn show">
+                            <div class="fieldSettingsHeaderBtnIconWrap">
+                                <div class="fieldSettingsHeaderBtnIcon bx bxs-show"></div>
+                            </div>
+                            <div>Show Fields</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right-container">
+        <div class="livePreviewText">Live Preview</div>
+        <div class="embed-preview-wrap">
+            <div class="embedPreview">
+                <div>Title</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

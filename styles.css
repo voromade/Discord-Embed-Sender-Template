@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    background: #2c2f33;
+}
+
+*{
+    color: #fff;
+}
+
+
+#app{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 50%;
+}
+
+
+.pageTitle{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.controls{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+
+.red{
+    background: #ff5e4f;
+}
+
+.discord{
+    background: #7289da;
+}
+
+.blue{
+    background: #4f84ff;
+
+}
+
+.green{
+    background: #3ceb4b;
+}
+
+
+.controlBtn{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    border-radius: 6px;
+    white-space: nowrap;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 10px;
+    transition: all 400ms ease 0s;
+}
+
+.controlBtn:hover{
+    cursor: pointer;
+}
+
+
+.controlBtn:last-child{
+    margin: 0;
+}
+
+.embedCustomizer{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 1rem;
+    border-top: 1.5px dashed rgba(255, 255, 255, .1);
+    height: 80vh;
+    width: 100%;
+}
+
+.mainSettings{
+    overflow: hidden;
+    width: 100%;
+    background: #23272a;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding-bottom: 10px;
+}
+
+.mainSettingsTitle{
+    color: #fff;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.fieldSettings{
+    width: 100%;
+    margin-top: 1rem;
+    border-top: 1.5px dashed rgba(255, 255, 255, .1);
+    padding-top: 1rem;
+}
+
+
+.embedCustomTitle{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.fieldSettingsHeader{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.fieldSettingsHeaderBtns{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.fieldSettingsHeaderBtn{
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    transition: all 400ms ease 0s;
+    cursor: pointer;
+}
+
+.fieldSettingsHeaderBtn:first-child{
+    margin-right: 10px;
+}
+
+
+.show{
+    border: 1px solid rgba(255, 255, 255, .3);
+}
+
+
+.settingsInputs{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.settingsInputBox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 13px;
+}
+
+.settingsInputBox:first-child{
+    margin: 0;
+}
+
+
+.settingsInputLabel{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+
+.settingsInput{
+    padding: 5px;
+    border-radius: 3px;
+    background: #2c2f33;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 400ms ease-in-out;
+}
+
+.settingsInput:focus{
+    outline: none;
+    border: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+.controlBtnIconWrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controlBtnIcon{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.fieldSettingsHeaderBtnIconWrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fieldSettingsHeaderBtnIcon{
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+
+.right-container{
+    background: #23272a;
+    width: 50%;
+    height: 100vh;
+    color: #fff;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.2rem;
+}
+
+
+.livePreviewText{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+.embed-preview-wrap{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+
+.embedPreview{
+    background: #2c2f33;
+    width: 400px;
+    border-radius: 6px;
+    height: 140px;
+    border-left: 7px solid #4f84ff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
